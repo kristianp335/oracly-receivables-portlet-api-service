@@ -1,0 +1,3 @@
+Bundle-Name: oracly-receivable-web
+Bundle-SymbolicName: com.liferay.oracly.accounts.receivable.web
+Bundle-Version: 1.0.0

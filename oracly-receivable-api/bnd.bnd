@@ -1,0 +1,9 @@
+Bundle-Name: oracly-receivable-api
+Bundle-SymbolicName: com.liferay.oracly.accounts.receivable.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.oracly.accounts.receivable.exception,\
+	com.liferay.oracly.accounts.receivable.model,\
+	com.liferay.oracly.accounts.receivable.service,\
+	com.liferay.oracly.accounts.receivable.service.persistence
+-includeresource: META-INF/service.xml=../oracly-receivable-service/service.xml

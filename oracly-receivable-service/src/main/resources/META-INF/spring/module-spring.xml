@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.liferay.oracly.accounts.receivable.service.impl.ReceivableLocalServiceImpl" id="com.liferay.oracly.accounts.receivable.service.ReceivableLocalService" />
+	<bean class="com.liferay.oracly.accounts.receivable.service.impl.ReceivableServiceImpl" id="com.liferay.oracly.accounts.receivable.service.ReceivableService" />
+	<bean class="com.liferay.oracly.accounts.receivable.service.persistence.impl.ReceivablePersistenceImpl" id="com.liferay.oracly.accounts.receivable.service.persistence.ReceivablePersistence" parent="basePersistence" />
+</beans>
